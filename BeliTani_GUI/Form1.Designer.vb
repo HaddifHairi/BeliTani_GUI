@@ -33,6 +33,7 @@ Partial Class formLogin
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -124,6 +125,7 @@ Partial Class formLogin
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.btnLogin)
         Me.Panel1.Controls.Add(Me.PictureBox1)
@@ -146,6 +148,15 @@ Partial Class formLogin
         Me.Label3.Size = New System.Drawing.Size(61, 20)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "GitTest"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(35, 635)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(61, 20)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "GitTest"
         '
         'formLogin
         '
@@ -174,4 +185,5 @@ Partial Class formLogin
     Friend WithEvents btnLogin As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
 End Class
